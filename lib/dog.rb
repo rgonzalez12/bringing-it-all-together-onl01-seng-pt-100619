@@ -57,6 +57,7 @@ class Dog
       FROM dogs
       WHERE id = ?
       LIMIT 1 
-      )
+      SQL
+      
   
 end
